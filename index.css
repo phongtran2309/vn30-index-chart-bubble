@@ -1,0 +1,119 @@
+div {
+    /* border: 1px solid black;     */
+}
+
+.container {
+
+}
+
+/* START: config panel */
+.config-panel {
+    display: block;
+    height: 80px;
+    padding: 10px 10px;
+}
+
+.config-panel .run-one-panel {
+    width: 50%;
+    float: left;
+    height: 100%;
+}
+
+.config-panel .run-one-panel .year-selector{
+
+}
+
+.config-panel .run-one-panel .year-selector text{
+
+}
+
+.config-panel .run-one-panel .year-selector button{
+
+}
+
+.config-panel .run-one-panel .year-navigation{
+
+}
+
+.config-panel .run-one-panel .year-navigation text{
+
+}
+
+.config-panel .run-one-panel .year-navigation button{
+
+}
+
+.config-panel .run-multiple-panel {
+    width: 50%;
+    float: right;
+    height: 100%;
+}
+
+.config-panel .run-multiple-panel text{
+
+}
+
+.config-panel .run-multiple-panel button{
+
+}
+/* END: config panel */
+
+
+/* START: chart panel */
+.chart-panel {
+}
+
+.chart-panel .chart-descriptions {
+    display: block;
+    height: 40px;
+}
+
+.chart-panel .chart-descriptions .chart-title {
+    width: 45%;
+    height: 100%;
+    float: left;
+    text-align: right;
+    padding-right: 10px;
+}
+
+.chart-panel .chart-descriptions .chart-current-year {
+    width: 45%;
+    height: 100%;
+    float: right;
+    padding-left: 10px;
+}
+
+.chart-panel .chart-ticker-list {
+}
+
+.chart-panel .chart-ticker-list .chart-ticker-item {
+    display: block;
+    height: 40px;
+    margin: 5px 0;
+    border: 1px solid gray;
+}
+
+.chart-panel .chart-ticker-list .chart-ticker-item .chart-ticker-item-name{
+    width: 100px;
+    float: left;
+    height: 100%;
+}
+
+.chart-panel .chart-ticker-list .chart-ticker-item .chart-ticker-item-capital-img{
+    background-color: red;
+    /* width: calc(100% - 550px); */
+    height: 100%;
+    float: left;
+}
+
+
+.chart-panel .chart-ticker-list .chart-ticker-item .chart-ticker-item-capital-text{
+    width: 50px;
+    float: right;
+    height: 100%;
+}
+
+
+
+/* END: chart panel */
+
