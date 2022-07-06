@@ -1,12 +1,10 @@
 div {
-    /* border: 1px solid black;     */
 }
 
 .container {
-
+    position: relative;
 }
 
-/* START: config panel */
 .config-panel {
     display: block;
     height: 80px;
@@ -19,29 +17,17 @@ div {
     height: 100%;
 }
 
-.config-panel .run-one-panel .year-selector{
+.config-panel .run-one-panel .year-selector {}
 
-}
+.config-panel .run-one-panel .year-selector text {}
 
-.config-panel .run-one-panel .year-selector text{
+.config-panel .run-one-panel .year-selector button {}
 
-}
+.config-panel .run-one-panel .year-navigation {}
 
-.config-panel .run-one-panel .year-selector button{
+.config-panel .run-one-panel .year-navigation text {}
 
-}
-
-.config-panel .run-one-panel .year-navigation{
-
-}
-
-.config-panel .run-one-panel .year-navigation text{
-
-}
-
-.config-panel .run-one-panel .year-navigation button{
-
-}
+.config-panel .run-one-panel .year-navigation button {}
 
 .config-panel .run-multiple-panel {
     width: 50%;
@@ -49,19 +35,11 @@ div {
     height: 100%;
 }
 
-.config-panel .run-multiple-panel text{
+.config-panel .run-multiple-panel text {}
 
-}
-
-.config-panel .run-multiple-panel button{
-
-}
-/* END: config panel */
-
-
-/* START: chart panel */
-.chart-panel {
-}
+.config-panel .run-multiple-panel button {}
+ .chart-panel {
+ }
 
 .chart-panel .chart-descriptions {
     display: block;
@@ -84,36 +62,26 @@ div {
 }
 
 .chart-panel .chart-ticker-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.chart-panel .chart-ticker-list .chart-ticker-list-canvas {
+    border: 1px solid red;
 }
 
 .chart-panel .chart-ticker-list .chart-ticker-item {
-    display: block;
-    height: 40px;
-    margin: 5px 0;
-    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 100%;
 }
 
-.chart-panel .chart-ticker-list .chart-ticker-item .chart-ticker-item-name{
-    width: 100px;
-    float: left;
-    height: 100%;
+.chart-panel .chart-ticker-list .chart-ticker-item .chart-ticker-item-name {
+    text-align: center;
 }
 
-.chart-panel .chart-ticker-list .chart-ticker-item .chart-ticker-item-capital-img{
-    background-color: red;
-    /* width: calc(100% - 550px); */
-    height: 100%;
-    float: left;
+.chart-panel .chart-ticker-list .chart-ticker-item-capital-text {
+    text-align: center;
 }
-
-
-.chart-panel .chart-ticker-list .chart-ticker-item .chart-ticker-item-capital-text{
-    width: 50px;
-    float: right;
-    height: 100%;
-}
-
-
-
-/* END: chart panel */
-

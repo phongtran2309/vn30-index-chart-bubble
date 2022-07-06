@@ -5,7 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
-    <title>VN30 Chart</title>
+    
+    <title>Bubble Chart</title>
 </head>
 <body>
     <div class="container">
@@ -29,50 +30,19 @@
         <div class="chart-panel">
             <div class="chart-descriptions">
                 <div class="chart-title">
-                    <span>Capital chart of VN30 from 2000 to 2022</span>
+                    <span class="many-multiple-year"></span>
                 </div>
                 <div class="chart-current-year">
-                    <span>2020</span>
+                    <span class="one-year-current"></span>
                 </div>
             </div>
             <div class="chart-ticker-list">
-                <!-- <div class="chart-ticker-item">
-                    <div class="chart-ticker-item-name">
-                        AAA
-                    </div>
-                    <div class="chart-ticker-item-capital-img">
-
-                    </div>
-                    <div class="chart-ticker-item-capital-text">
-                        1000
-                    </div>
-                </div>
-                <div class="chart-ticker-item">
-                    <div class="chart-ticker-item-name">
-                        BBB
-                    </div>
-                    <div class="chart-ticker-item-capital-img">
-                        
-                    </div>
-                    <div class="chart-ticker-item-capital-text">
-                        500
-                    </div>
-                </div>
-                <div class="chart-ticker-item">
-                    <div class="chart-ticker-item-name">
-                        AAA
-                    </div>
-                    <div class="chart-ticker-item-capital-img">
-                        
-                    </div>
-                    <div class="chart-ticker-item-capital-text">
-                        200
-                    </div>
-                </div> -->
+                <canvas id="x-chart" class="chart-ticker-list-canvas" width="1800px" height="1450px"></canvas>
             </div>
         </div>
     </div>
-    <script src="./data.js"></script>
+    <script src="./data-config.js"></script>
+    <script src="./data-controller.js"></script>
     <script src="./index.js"></script>
 </body>
 </html>
